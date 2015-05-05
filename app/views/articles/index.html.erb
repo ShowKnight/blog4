@@ -1,0 +1,12 @@
+<ul>
+  <% @articles.each do |f| %>
+    <li>
+      <%= f.title %>
+    <%= link_to 'Show',:controler => 'articles', :action => 'show', :id => f %>
+    <%= link_to 'Edit',:controler => 'articles', :action=>'edit',:id=> f %>
+    <%= link_to 'Delete',:controler => 'articles',:action=>'destroy',:id=>f %>
+    </li>
+
+  <% end %>
+</ul>
+

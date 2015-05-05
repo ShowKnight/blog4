@@ -1,0 +1,10 @@
+<p>welcome</p>
+<%= form_for :article, url: articles_path do |f| %>
+  <p>
+    <%= f.label :title %><br>
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
