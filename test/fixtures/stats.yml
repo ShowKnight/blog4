@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  w1: 1.5
+  s1: 1
+  d1: 1
+  t1: MyString
+  w2: 1.5
+  s2: 1
+  d2: 1
+  t2: MyString
+  w3: 1.5
+  s3: 1
+  d3: 1
+  t3: MyString
+
+two:
+  w1: 1.5
+  s1: 1
+  d1: 1
+  t1: MyString
+  w2: 1.5
+  s2: 1
+  d2: 1
+  t2: MyString
+  w3: 1.5
+  s3: 1
+  d3: 1
+  t3: MyString
